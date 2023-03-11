@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger Kami</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header section starts     -->
+
+    <section class="header">
+      <a href="#" class="logo"> <i class="fas fa-utensils"></i> Burgerkami </a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#food">Makanan</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+
+    <!-- header section ends    -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide slide"
+            style="background: url(images/2.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>Burger Kami</h3>
+              <a href="#" class="btn">Pesan Sekarang</a>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide slide"
+            style="background: url(images/7.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>Burger Kami</h3>
+              <a href="#" class="btn">Pesan Sekarang</a>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide slide"
+            style="background: url(images/8.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>Burger Kami</h3>
+              <a href="#" class="btn">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- food section starts  -->
+
+    <section class="food" id="food">
+      <div class="heading">
+        <span>Burger Kami</span>
+        <h3>Menu Kami</h3>
+      </div>
+
+      <div class="swiper food-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide" data-name="food-1">
+            <img src="images/3.jpg" alt="" />
+            <h3>Es Jeruk</h3>
+            <div class="price">Rp5000</div>
+          </div>
+
+          <div class="swiper-slide slide" data-name="food-2">
+            <img src="images/7.jpg" alt="" height="200" width="200" />
+            <h3>Burger Original</h3>
+            <div class="price">Rp10000</div>
+          </div>
+
+          <div class="swiper-slide slide" data-name="food-3">
+            <img src="images/3.png" alt="" height="200" width="200" />
+            <h3>Burger double beef</h3>
+            <div class="price">Rp20000</div>
+          </div>
+
+          <div class="swiper-slide slide" data-name="food-4">
+            <img src="images/4.png" alt="" height="200" width="200" />
+            <h3>Burger dengan daging chicken</h3>
+            <div class="price">Rp15000</div>
+          </div>
+
+          <div class="swiper-slide slide" data-name="food-5">
+            <img src="images/8.jpg" alt="" height="200" width="200" />
+            <h3>Burger dengan daging bacon</h3>
+            <div class="price">Rp16000</div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- food section ends -->
+
+    <!-- food preview section starts  -->
+
+    <section class="food-preview-container">
+      <div id="close-preview" class="fas fa-times"></div>
+
+      <div class="food-preview" data-target="food-1">
+        <img src="images/3.jpg" alt="" height="200" width="200" />
+        <h3>Es Jeruk<h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          minuman dingin dengan rasa jeruk!
+        </p>
+        <div class="price">Rp5000</div>
+        <p> <a target="_blank"
+          href="https://api.whatsapp.com/send?phone=6289626064853&text=Beli%20Sekarang?"
+          class="icon">
+          <i class="icon-eye"></i>Beli sekarang</a></p>
+      </div>
+
+      <div class="food-preview" data-target="food-2">
+        <img src="images/7.jpg" alt="" height="200" width="200" />
+        <h3>Burger Original</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+         Burger Biasa!
+        </p>
+        <div class="price">Rp10000</div>
+        <p> <a target="_blank"
+          href="https://api.whatsapp.com/send?phone=6289626064853&text=Beli%20Sekarang?"
+          class="icon">
+          <i class="icon-eye"></i>Beli sekarang</a></p>
+      </div>
+
+      <div class="food-preview" data-target="food-3">
+        <img src="images/3.png" alt="" height="200" width="200"/>
+        <h3>Burger double beef</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          Burger dengan dengan dua daging!
+        </p>
+        <div class="price">Rp20000</div>
+        <p> <a target="_blank"
+          href="https://api.whatsapp.com/send?phone=6289626064853&text=Beli%20Sekarang??"
+          class="icon">
+          <i class="icon-eye"></i>Beli sekarang</a></p>
+      </div>
+
+      <div class="food-preview" data-target="food-4">
+        <img src="images/4.png" alt="" height="200" width="200"/>
+        <h3>Burger dengan daging chicken</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+         Burger dengan daring chicken atau ayam!
+        </p>
+        <div class="price">Rp16000</div>
+        <p> <a target="_blank"
+          href="https://api.whatsapp.com/send?phone=6289626064853&text=Beli%20Sekarang?"
+          class="icon">
+          <i class="icon-eye"></i>Beli sekarang</a></p>
+      </div>
+
+      <div class="food-preview" data-target="food-5">
+        <img src="images/8.jpg" alt="" height="200" width="200"/>
+        <h3>Burger dengan daging becon</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>Burger dengan tambahan daging bacon!</p>
+        <div class="price">Rp16000</div>
+        <p> <a target="_blank"
+          href="https://api.whatsapp.com/send?phone=6289626064853&text=Beli%20Sekarang??"
+          class="icon">
+          <i class="icon-eye"></i>Beli sekarang</a></p>
+</div>
+      </div>
+    </section>
+
+    <!-- food preview section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="icons-container">
+        <div class="icons">
+          <i class="fas fa-clock"></i>
+          <h3>jam buka</h3>
+          <p>07:00 sampai 00:00</p>
+        </div>
+
+        <div class="icons">
+          <i class="fas fa-phone"></i>
+          <h3>kontak kami</h3>
+          <p>+6289626064853</p>
+        </div>
+
+        <div class="icons">
+          <i class="fas fa-envelope"></i>
+          <h3>email</h3>
+          <p>yasilyas307@gmail.com</p>
+        </div>
+
+        <div class="icons">
+          <i class="fas fa-map"></i>
+          <h3>alamat</h3>
+          <p>pancoran mas</p>
+        </div>
+      </div>
+
+
+      <div class="credit">
+        create by <span>Muhamad Ilyas</span> | all rights reserved!
+      </div>
+    </section>
+
+    <!-- footer section ends  -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+    <script>
+      lightGallery(document.querySelector(".gallery .gallery-container"));
+    </script>
+  </body>
+</html>
